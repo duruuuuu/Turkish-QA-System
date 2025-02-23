@@ -3,7 +3,7 @@
 ## Prerequisits
 - Please first download the model from the followin link and add it to this folder
 https://drive.google.com/drive/folders/1Jj_PlBxsGhAz6fxTEorAjY-s-UQ7vZzq?usp=sharing
-(I am very sorry about this inconvenience, the models file didnt fit to teams)
+(I am very sorry about this inconvenience, the models file didnt fit)
 
 ## Features
 - Simple web interface for asking questions
