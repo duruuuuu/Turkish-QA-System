@@ -34,20 +34,21 @@ streamlit run app.py
 4. Click "Get Answer" to receive a response
 
 ## About the Project
-Data Collection
+### Data Collection\n
 To collect the data, the PDF document of the GTU Rules and Regulations file was extracted using a custom Python script and the PyPDF library, converted into JSON format for accessibility when annotating the data.
 
-Model Selection
+### Model Selection
 The model chosen to be finetuned to the GTU Rules and Regulations dataset was the Turkish SQuAD Model: Question Answering [1], pre-finetuned with the Turkish language version of SQuAD, TQuAD.
 
-Fine-Tuning the Model
+### Fine-Tuning the Model
 The Turkish QA model was finetuned using the ‘Transformers’ library. 
-Finetuning metrics
 
-Metric	Value
-Number of Epochs	4
-Learning Rate	0.0002
-Weight Decay	0.01
+### Finetuning Metrics
+| Metric  | Value |
+| ------------- | ------------- |
+| # of Epochs  | 4  |
+| Learning Rate  | 0.0002  |
+| Weight Decay | 0.01 |
 
 Model Evaluation
 The model was evaluated using F1 Score and Exact Match metrics.
